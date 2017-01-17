@@ -8,7 +8,11 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
 	</head>
 	<body>
+		
 		<div class="row">
+			<div class="col-md-2" ></div>   <!--style='border:1px solid black'-->
+			<div class="col-md-8" >
+				<div class="row">
 			<nav role="navigation" class="navbar navbar-default">
 			
 			<!-- Toggle menu for mobile display -->
@@ -24,26 +28,45 @@
 			<!-- default menu -->
 			<div id="navbarCollapse" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Група</a></li>
+					<li><a href="#">Група</a></li> <!-- <li class="active"><a href="#">Група</a></li> -->
 					<li><a href="#">Друзі</a></li>
 					<li><a href="#">Новини</a></li>
 					<li><a href="#">Фото</a></li>
 					<li><a href="#">Відео</a></li>				
 				</ul>
+				<div>
+					<form method="GET" action=""><!-- POST -->
+						<div><br><input type="text" name="search" value="" placeholder="Пошук"/><br></div>
+					</form>
+				</div>
 			</div>			
 		</div>
-		
+			</div>
+			<div class="col-md-2" ></div>
+		</div>		
 		
 		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="col-md-10">Освіта</div>
-			<div class="col-md-1"></div>
+			<div class="col-md-2"  ></div>
+			<div class="col-md-8" >Освіта<br><hr></div>
+			<div class="col-md-2" ></div>
 		</div>
 		
 		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="col-md-10"><hr></div>
-			<div class="col-md-1"></div>
+			<div class="col-md-2" ></div>
+			<div class="col-md-5" >
+				<form method="GET" action=""><!-- POST -->
+					<div>Місто: <input type="text" name="City" value="" placeholder=""/><br></div>
+					<br>
+					<div>Курс:  <input type="text" name="Class" value="" placeholder=""/><br></div>
+				</form>
+			</div>
+			<div class="col-md-3" >
+				<a class="infoRightPanelKor" href="#">Основне</a><hr>				
+				<a class="infoRightPanelKor" href="#">Контакти</a><hr>
+				<a class="infoRightPanelKor" href="#">Освіта</a><hr>
+				<a class="infoRightPanelKor" href="#">Кар'єра</a><hr>
+			</div>
+			<div class="col-md-2" ></div>
 		</div>
 		
 	</body>	
