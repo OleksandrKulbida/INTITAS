@@ -11,3 +11,13 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 }
+
+.navbar-header{
+	background-color:#229922;
+    color:#ffffff;
+}
+
+.bodyStyle{
+	background-color:#229922;
+    color:#ffffff;
+}
