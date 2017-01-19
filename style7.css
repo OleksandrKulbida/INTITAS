@@ -18,3 +18,11 @@ body{
 	background-color:#229922;
     color:#ffffff;
 }
+
+.form-control{
+	border-radius: 0 px !important;	
+}
+
+.navbar-kor{
+	background-color: blue;
+}
