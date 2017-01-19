@@ -1,7 +1,3 @@
-.my1{
-	background:green
-}
-
 body{
 	
 }
@@ -13,9 +9,10 @@ body{
 }
 
 .navbar-header{
-	background-color:#229922;
+	background-color:red;
     color:#ffffff;
 }
+
 
 .bodyStyle{
 	background-color:#229922;

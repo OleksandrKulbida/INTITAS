@@ -13,7 +13,7 @@
 			<div class="col-md-2" ></div>   <!--style='border:1px solid black'-->
 			<div class="col-md-8" >
 				<div class="row">
-			<nav role="navigation" class="navbar navbar-default" style="background-color: #333399;">
+			<nav role="navigation" class="navbar navbar-default">
 			
 			<!-- Toggle menu for mobile display -->
 			<div class="navbar-header">
@@ -25,48 +25,55 @@
 				</button>
 			</div>
 
-			<!-- default menu  -->
+			<!-- default menu -->
 			<div id="navbarCollapse" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
 					<li><a href="#">
-							<img src="INTITASlog.bmp" alt="INTITAS" 
-								title="підказка" width="100" height="50"/> 
+							<img src="img/INTITASico.png" alt="INTITAS" 
+								title="підказка" width="180" height="40"/> 
 						</a>
 					</li>
-					<li><a href="#"><img src="grouplog.bmp" alt="group" 
-							title="підказка" width="50" height="25"/><br>Група
+					<li><a href="#"><img src="img/groupico.png" alt="group" 
+							title="підказка" width="32" height="19"/><br>Група
 						</a>
 					</li> <!-- <li class="active"></li> -->
-					<li><a href="#"><img src="friedslog.bmp" alt="frieds" 
-							title="підказка" width="50" height="25"/><br>Друзі
+					<li><a href="#"><img src="img/friedsico.png" alt="frieds" 
+							title="підказка" width="23" height="18"/><br>Друзі
 						</a>
 					</li>
-					<li><a href="#"><img src="newslog.bmp" alt="news" 
-							title="підказка" width="50" height="25"/><br>Новини
+					<li><a href="#"><img src="img/newsico.png" alt="news" 
+							title="підказка" width="22" height="23"/><br>Новини
 						</a>
 					</li>
-					<li><a href="#"><img src="fotolog.bmp" alt="foto" 
-							title="підказка" width="50" height="25"/><br>Фото
-						</a>
+					<li><a href="#"><img src="img/cameraico.png" alt="foto" 
+						title="підказка" width="26" height="19"/><br>Фото</a>
 					</li>
-					<li><a href="#"><img src="videolog.bmp" alt="video" 
-							title="підказка" width="50" height="25"/><br>Відео
-						</a>
+					<li><a href="#"><img src="img/videoico.png" alt="video" 
+						title="підказка" width="30" height="19"/><br>Відео</a>
 					</li>
+					<!--
 					<li>
 						<div>
-							<form method="GET" action=""><!-- POST -->
+							<form method="GET" action="">
 								<div><br><input type="text" name="search" value="" placeholder="Пошук"/><br></div>
 							</form>
 						</div>
 					</li>
-					<li>
-						<div style = 'form: circle'>
-							<a href="#"><img src="roundMiniAva.bmp" alt="ava" 
-									title="підказка" width="50" height="50"/>
-							</a>
-						</div>
-					</li>	
+					-->
+						<form class="navbar-form navbar-left">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Пошук">
+								<div class="input-group-btn">
+									<button class="btn btn-default" type="submit">
+										<i class="glyphicon glyphicon-search"></i>
+									</button>
+								</div>
+							</div>
+						</form>
+					<li>						
+						<a href="#"><img src="img/circleMiniAva.png" class="img-circle" alt="ava" 
+								width="50" height="50"/></a>						
+					</li>					
 				</ul>
 			</div>			
 		</div>
@@ -82,11 +89,23 @@
 		
 		<div class="row">
 			<div class="col-md-2" ></div>
-			<div class="col-md-5" >
-				<form method="GET" action=""><!-- POST -->
+			<div class="col-md-5" ><!--
+				<form method="GET" action="">
 					<div class="infoRightPanelKor">Місто: <input type="text" name="City" value="" placeholder=""/><br></div>
 					<br>
 					<div class="infoRightPanelKor">  Курс:  <input type="text" name="Class" value="" placeholder=""/><br></div>
+				</form>
+				-->
+				<form>
+				  <div class="form-group">
+					<label for="city">Місто:
+					<input type="city" class="form-control" id="city"></label>
+				  </div>
+				  <div class="form-group">
+					<label for="class">Курс: </label>
+					<input type="class" class="form-control" >
+				  </div>				  
+				  <button type="submit" class="btn btn-default">Зберегти</button>
 				</form>
 			</div>
 			<div class="col-md-3" >
