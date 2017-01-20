@@ -8,10 +8,13 @@ body{
 	font-size: 20px;
 }
 
-.navbar-header{
-	background-color:red;
-    color:#ffffff;
+.textForIcon{
+	text-decoration: none;
+	color: black;
+	font-family: Myriad Pro, serif;
+	font-size: 14.52px;
 }
+
 
 
 .bodyStyle{
@@ -24,5 +27,5 @@ body{
 }
 
 .navbar-kor{
-	background-color: ;
+	background-color: #00829c;
 }
