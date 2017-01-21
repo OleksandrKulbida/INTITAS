@@ -81,40 +81,46 @@
 	
 		
 		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8"><div class="infoRightPanelKor">Освіта</div><hr></div>
-			<div class="col-md-2"></div>
-		</div>
-		
-		<div class="row">
-			<div class="col-md-2" ></div>
-			<div class="col-md-5" ><!--
-				<form method="GET" action="">
-					<div class="infoRightPanelKor">Місто: <input type="text" name="City" value="" placeholder=""/><br></div>
-					<br>
-					<div class="infoRightPanelKor">  Курс:  <input type="text" name="Class" value="" placeholder=""/><br></div>
-				</form>
-				-->
-				<form>
-				  <div class="form-group">
-					<label for="city">Місто:
-					<input type="city" class="form-control" id="city"></label>
-				  </div>
-				  <div class="form-group">
-					<label for="class">Курс: </label>
-					<input type="class" class="form-control" >
-				  </div>				  
-				  <button type="submit" class="btn btn-default">Зберегти</button>
-				</form>
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				<div class="row">					
+					<div class="col-md-12"><div class="textForRightPanelKor">Освіта</div><hr></div>					
+				</div>
+				
+				<div class="row">
+					<div class="col-md-3" ></div>
+					<div class="col-md-3" >				
+							<div><label class="textCityAndClass">Місто:<label></div>
+							<div><label class="textCityAndClass">Курс:<label></div>
+					</div>	
+					<div class="col-md-3" >
+						<form>
+							<div><input type="text" name="City" value="" placeholder=""/></div><br>
+							<div><input type="text" name="Class" value="" placeholder=""/></div>
+						</form>
+						<!--
+						<form>
+						  <div class="form-group">
+							<label for="city">Місто:
+							<input type="city" class="form-control" id="city"></label>
+						  </div>
+						  <div class="form-group">
+							<label for="class">Курс: </label>
+							<input type="class" class="form-control" >
+						  </div>				  
+						  <button type="submit" class="btn btn-default">Зберегти</button>
+						</form>
+						-->
+					</div>
+					<div class="col-md-3" >
+						<a class="textForRightPanelKor" href="#">Основне</a><hr color="black">				
+						<a class="textForRightPanelKor" href="#">Контакти</a><hr>
+						<a class="textForRightPanelKor" href="#">Освіта</a><hr>
+						<a class="textForRightPanelKor" href="#">Кар'єра</a><hr>
+					</div>			
+				</div>
 			</div>
-			<div class="col-md-3" >
-				<a class="infoRightPanelKor" href="#">Основне</a><br>				
-				<a class="infoRightPanelKor" href="#">Контакти</a><br>
-				<a class="infoRightPanelKor" href="#">Освіта</a><br>
-				<a class="infoRightPanelKor" href="#">Кар'єра</a><br>
-			</div>
-			<div class="col-md-2" ></div>
+			<div class="col-md-1"></div>
 		</div>
-		
 	</body>	
 </html>
