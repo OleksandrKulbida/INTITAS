@@ -32,10 +32,23 @@ body{
 	border-radius: 0 px !important;	
 }
 
-.navbar-kor{
+.colorForNavbar{
 	background-color: #00829c;
 }
 
-.styleForHr{
-	color; black;
+.HrStyleMain{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border:none; 
+	background:black; 	
+	height:1px;
+}	
+	
+.HrStyleSecondary{
+	margin-top: -2px;
+	margin-bottom: 0px;
+	border:none; 
+	background:black; 	
+	height:1px;
+	
 }
