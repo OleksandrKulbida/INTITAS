@@ -2,13 +2,41 @@ body{
 	
 }
 
-.textForRightPanelKor{	
+.textMain{
+	text-decoration: none;
 	color: black;
 	font-family: Roboto, serif;
 	font-size: 28px;
 	text-align: left;
 }
 
+
+.textForRightPanelKor:hover{
+	text-decoration: none;
+	color:#6282ad;
+	
+}
+
+.textForRightPanelKor{
+	
+	text-decoration: none;
+	color: black;
+	font-family: Roboto, serif;
+	font-size: 28px;
+	text-align: left;
+}
+
+.textForIcon:hover{
+	text-decoration: none;
+	color: red;
+}
+
+.navbar-default .navbar-nav>li>a {
+    text-decoration: none;
+	color: black;
+	font-family: Myriad Pro, serif;
+	font-size: 14.52px;
+}
 .textForIcon{
 	text-decoration: none;
 	color: black;
