@@ -1,21 +1,20 @@
-body{
-	
+
+a:hover{
+	text-decoration: none;
 }
 
-.textMain{
+.text-main{
 	text-decoration: none;
 	color: black;
 	font-family: Roboto, serif;
-	font-size: 28px;	
-	border-bottom:1px black;
+	font-size: 28px;
 }
 
-.textForRightPanelKor:hover{
-	text-decoration: none;
+.text-rightPanel:hover{
 	color:#6282ad;	
 }
 
-.textForRightPanelKor{	
+.text-rightPanel{
 	text-decoration: none;
 	color: black;
 	font-family: Roboto, serif;
@@ -23,12 +22,12 @@ body{
 	text-align: left;	
 }
 
-.textForRightPanelKorActive{
+.text-rightPanel-active{
 	text-decoration: none;
 	color:#6282ad;
 }
 
-.borderForDiv{
+.border-div-bottom{
 	border-bottom:1px solid black;
 }
 
@@ -41,28 +40,28 @@ body{
     text-decoration: none;
 	color: black;
 	font-family: Myriad Pro, serif;
-	font-size: 14.52px;
+	font-size: 14px;
 }
 
-.textCityAndClass{
+.text-lable{
 	color: black;
-	font-family: Roboto Regular;
+	font-family: Robotor;
 	font-size: 28px;
 	text-align: right;	
 }
 
-.bodyStyle{
-	background-color:#229922;
-    color:#ffffff;
-}
-
-.form-control{
-	border-radius: 0 px !important;	
-}
-
-.colorForNavbar{
+.kor-navbar-color{
 	background-color: #00829c;
 }
+.input-group{
+	background-color: white;
+}
 
-	
+.search-form{
+	border: none;
+}
+
+.icon-kor{
+	margin: 10px;
+}
 	
