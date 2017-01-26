@@ -6,29 +6,28 @@ body{
 	text-decoration: none;
 	color: black;
 	font-family: Roboto, serif;
-	font-size: 28px;
-	text-align: left;
+	font-size: 28px;	
+	border-bottom:1px black;
 }
 
 
 .textForRightPanelKor:hover{
 	text-decoration: none;
-	color:#6282ad;
-	
+	color:#6282ad;	
 }
 
-.textForRightPanelKor{
-	
+.textForRightPanelKor{	
 	text-decoration: none;
 	color: black;
 	font-family: Roboto, serif;
 	font-size: 28px;
 	text-align: left;
+	border-bottom:1px solid black;
 }
 
-.textForIcon:hover{
+.navbar-default .navbar-nav>li>a:hover{
 	text-decoration: none;
-	color: red;
+	color: black;	
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -37,19 +36,13 @@ body{
 	font-family: Myriad Pro, serif;
 	font-size: 14.52px;
 }
-.textForIcon{
-	text-decoration: none;
-	color: black;
-	font-family: Myriad Pro, serif;
-	font-size: 14.52px;
-}
+
 .textCityAndClass{
 	color: black;
 	font-family: Roboto Regular;
 	font-size: 28px;
-	text-align: left;
+	text-align: right;	
 }
-
 
 .bodyStyle{
 	background-color:#229922;
