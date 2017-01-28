@@ -3,6 +3,18 @@ a:hover{
 	text-decoration: none;
 }
 
+.a-style-kor:hover{
+	text-decoration: none;
+}
+
+.a-style-kor{
+	text-decoration: none;
+	color: black;
+	font-family: Myriad Pro, serif;
+	text-align: center;
+	font-size: 14px;
+}
+
 .text-main{
 	text-decoration: none;
 	color: black;
@@ -12,6 +24,10 @@ a:hover{
 
 .text-rightPanel:hover{
 	color:#6282ad;	
+}
+
+.text-rightPanel:active{
+	text-decoration: none;
 }
 
 .text-rightPanel{
@@ -40,6 +56,7 @@ a:hover{
     text-decoration: none;
 	color: black;
 	font-family: Myriad Pro, serif;
+	text-align: center;
 	font-size: 14px;
 }
 
@@ -47,7 +64,7 @@ a:hover{
 	color: black;
 	font-family: Robotor;
 	font-size: 28px;
-	text-align: right;	
+	text-align: right;
 }
 
 .kor-navbar-color{
@@ -64,4 +81,8 @@ a:hover{
 .icon-kor{
 	margin: 10px;
 }
-	
+
+.input-area-size{
+	width: 250px;
+	line-height: 36px;
+}
