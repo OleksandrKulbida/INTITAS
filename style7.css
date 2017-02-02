@@ -1,3 +1,22 @@
+@font-face {
+	font-family: "MyriadProRegular";
+	src: url("fonts/MyriadProRegular/MyriadProRegular.eot");
+	src: url("fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+	url("fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+	url("fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+	url("fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+	url("fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
 
 a:hover{
 	text-decoration: none;
@@ -10,7 +29,7 @@ a:hover{
 .a-style-kor{
 	text-decoration: none;
 	color: black;
-	font-family: Myriad Pro, serif;
+	font-family: Myriad Pro, sans-serif;
 	text-align: center;
 	font-size: 14px;
 }
@@ -18,8 +37,8 @@ a:hover{
 .text-main{
 	text-decoration: none;
 	color: black;
-	font-family: Roboto, serif;
-	font-size: 28px;
+	font-family: RobotoRegular, sans-serif;
+	font-size: 34px;
 }
 
 .text-rightPanel:hover{
@@ -33,7 +52,7 @@ a:hover{
 .text-rightPanel{
 	text-decoration: none;
 	color: black;
-	font-family: Roboto, serif;
+	font-family: RobotoRegular, sans-serif;
 	font-size: 28px;
 	text-align: left;	
 }
@@ -43,31 +62,19 @@ a:hover{
 	color:#6282ad;
 }
 
+.text-lable-kor{
+	color: black;
+	font-family: RobotoRegular, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	text-align: right;
+}
+
 .border-div-bottom{
 	border-bottom:1px solid black;
 }
 
-.navbar-default .navbar-nav>li>a:hover{
-	text-decoration: none;
-	color: black;	
-}
-
-.navbar-default .navbar-nav>li>a {
-    text-decoration: none;
-	color: black;
-	font-family: Myriad Pro, serif;
-	text-align: center;
-	font-size: 14px;
-}
-
-.text-lable{
-	color: black;
-	font-family: Robotor;
-	font-size: 28px;
-	text-align: right;
-}
-
-.kor-navbar-color{
+.navbar-default {
 	background-color: #00829c;
 }
 .input-group{
@@ -86,3 +93,22 @@ a:hover{
 	width: 250px;
 	line-height: 36px;
 }
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: white;
+	background-color: #00829c;
+}
+
+.navbar-default .navbar-nav>li>a {
+	text-decoration: none;
+	color: black;
+	font-family: Myriad Pro, sans-serif;
+	text-align: center;
+	font-size: 14px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	text-decoration: none;
+	color: black;
+}
+
