@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("fonts/RobotoRegular/RobotoRegular.eot");
+    src: url("fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+    url("fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:focus{
+    text-decoration: none;
+}
+
+.a-style-kor:hover{
+    text-decoration: none;
+}
+
+.a-style-kor{
+    text-decoration: none;
+    color: black;
+    font-family: Myriad Pro, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.text-main{
+    text-decoration: none;
+    color: black;
+    font-family: RobotoRegular, sans-serif;
+    font-size: 34px;
+}
+
+.text-rightPanel:hover{
+    color:#6282ad;
+}
+
+.text-rightPanel:active{
+    text-decoration: none;
+}
+
+.text-rightPanel{
+    text-decoration: none;
+    color: black;
+    font-family: RobotoRegular, sans-serif;
+    font-size: 28px;
+    text-align: left;
+}
+
+.text-rightPanel-active{
+    text-decoration: none;
+    color:#6282ad;
+}
+
+.text-lable-kor{
+    color: black;
+    font-family: RobotoRegular, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    text-align: right;
+}
+
+.border-div-bottom{
+    border-bottom:1px solid black;
+}
+
+.navbar-default {
+    background-color: #00829c;
+}
+.input-group{
+    background-color: white;
+}
+
+.search-form{
+    border: none;
+}
+
+.icon-kor{
+    margin: 10px;
+}
+
+.input-area{
+    border: 1px solid black;
+    width: 250px;
+    line-height: 36px;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: white;
+    background-color: #00829c;
+}
+
+.navbar-default .navbar-nav>li>a {
+    text-decoration: none;
+    color: black;
+    font-family: Myriad Pro, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.container-color{
+
+}
+
+.body-background-color{
+    background-color: #efefef;
+}
+
+.img-thumbnail {
+    border-radius: 0px;
+    padding: 33.5px;
+}
+
+.btn {
+    border-radius: 0px;
+    padding: 6px 60px;
+}
